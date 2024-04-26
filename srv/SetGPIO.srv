@@ -1,0 +1,5 @@
+# SetGPIO.srv
+int32 gpio_number
+int32 set_on
+---
+bool success
