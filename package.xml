@@ -4,7 +4,7 @@
   <name>hitbot_msgs</name>
   <version>0.0.0</version>
   <description>hitbot_msgs and srvs</description>
-  <maintainer email="scarlet777735@gmail.com">dev_jung</maintainer>
+  <maintainer email="seedn7777@cwsfa.co.kr">dev_jung</maintainer>
   <license>MIT License</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
