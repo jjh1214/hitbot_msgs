@@ -26,6 +26,8 @@ find_package(rosidl_default_generators REQUIRED)
 # Add hitbot_srv
 rosidl_generate_interfaces(${PROJECT_NAME}
 "srv/SetGPIO.srv"
+"srv/GetGPIOOut.srv"
+"srv/GetGPIOIn.srv"
 
 )
 

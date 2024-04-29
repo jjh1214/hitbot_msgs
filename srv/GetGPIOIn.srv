@@ -1,0 +1,4 @@
+# GetGPIOIn.srv
+int32 gpio_number
+---
+bool success
