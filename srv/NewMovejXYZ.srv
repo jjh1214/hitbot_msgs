@@ -1,0 +1,22 @@
+# NewMovejXYZ.srv
+
+# float32 goal_x: Target point x-coordinate (mm)
+# float32 goal_y: Target point y-coordinate (mm)
+# float32 goal_z: Target point z-coordinate (mm)
+# float32 goal_r: Target point r-coordinate (mm)
+# float32 speed: Linear speed in xyz (mm/s) or rotational speed of axis 4(deg/s)
+# float roughly: 0: Move to the previous target point first, and when the speed at the current target point becomes 0, then move to the new target point.
+#                1: When there is a new target point, move at maximum speed near the current target point. The value of this parameter ranges from 0 to 1.
+#                   The larger the value, the faster the motion speed when passing through the current target point, but the farther the passing point is from the current target point.
+# int lr : 1 for right-handed system, -1 for left-handed system, angle2>0 for right-handed system, otherwise for left-handed system.
+
+float32 goal_x
+float32 goal_y
+float32 goal_z
+float32 goal_r
+float32 speed
+float32 roughly
+int32 lr
+
+---
+bool success

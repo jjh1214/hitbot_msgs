@@ -1,0 +1,7 @@
+# SetDragTeach.srv
+# requset enable = false is Setdragteach
+
+bool enable
+
+---
+bool success

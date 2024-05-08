@@ -28,6 +28,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 "srv/SetGPIO.srv"
 "srv/GetGPIOOut.srv"
 "srv/GetGPIOIn.srv"
+"srv/SetDragTeach.srv"
+"srv/JointHome.srv"
+"srv/NewMovejXYZ.srv"
+"srv/NewMovejAngle.srv"
 
 )
 

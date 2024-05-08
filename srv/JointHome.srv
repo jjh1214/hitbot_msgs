@@ -1,0 +1,5 @@
+# JointHome.srv
+# int32 joint_num：Axis number
+int32 joint_num
+---
+bool success
